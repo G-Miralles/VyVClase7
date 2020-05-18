@@ -54,9 +54,9 @@ const calcular = () => {
         antiguedad = 184;
     } else if (antiguedad >= 25 && antiguedad < 30) {
         antiguedad = 195;
-    } else if (antiguedad >= 5 && antiguedad < 10) {
+    } else if (antiguedad >= 30 && antiguedad < 40) {
         antiguedad = 217;
-    } else if (antiguedad >= 5 && antiguedad < 10) {
+    } else if (antiguedad > 40) {
         antiguedad = 300;
     };
 

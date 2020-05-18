@@ -77,7 +77,7 @@ const calcular = () => {
 
     //Muestro los valores calculados en la tabla
 
-    document.getElementById('sueldoTabla').innerHTML = ' $' + total1;
+    document.getElementById('sueldoTabla').innerHTML = ' $ ' + total1;
     document.getElementById('jubilacionTabla').innerHTML = ' - $' + jubilacion;
     document.getElementById('pamiTabla').innerHTML = ' - $' + pami;
     document.getElementById('obraSocialTabla').innerHTML = ' - $' + obraSocial;

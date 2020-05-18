@@ -85,8 +85,8 @@ const calcular = () => {
     document.getElementById('antiguedadTabla').innerHTML = antiguedad;
     document.getElementById('hijosTabla').innerHTML = hijos;
     document.getElementById('hsExtrasTabla').innerHTML = hsExtras;
-    document.getElementById('presentismoTabla').innerHTML = presentismo;
-    document.getElementById('asignacionHijosTabla').innerHTML = asignacionHijos;
+    document.getElementById('presentismoTabla').innerHTML = ' $ ' + presentismo;
+    document.getElementById('asignacionHijosTabla').innerHTML = ' $ ' + asignacionHijos;
 
 };
 

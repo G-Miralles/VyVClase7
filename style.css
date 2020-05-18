@@ -1,0 +1,20 @@
+body {
+    background-color: #343a40;
+}
+
+h1 {
+    color: #dee2e6;
+}
+
+hr {
+    background-color: #dee2e6;
+}
+
+#formulario {
+    margin-left: 35%;
+    width: 30%;
+    height: 40%;
+    color: #f1edf2;
+    border-radius: 15px;
+    border-color: #f1edf2;
+}

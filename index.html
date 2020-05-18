@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Pruebas de caja blancas</title>
+</head>
+
+<body>
+    <br>
+    <hr>
+    <h1 class="display-4 text-center">Verificacion y validacion de programas: Clase 7 </h1>
+    <hr>
+    <br>
+
+
+    <div id="formulario">
+        <form>
+            <div class="form-group">
+                <label for="sueldoBasico">Sueldo basico</label>
+                <input type="number" class="form-control" id="sueldo" placeholder="Ingrese el monto de su sueldo expresado en caracteres numericos">
+            </div>
+            <div class="form-group">
+                <label for="cantidadHijos">Cantidad de hijos</label>
+                <input type="number" class="form-control" id="hijos" placeholder="Ingrese la cantidad hijos expresada caracteres numericos">
+            </div>
+            <div class="form-group">
+                <label for="Antiguedad">Antiguedad</label>
+                <input type="number" class="form-control" id="antiguedad" placeholder="Ingrese su antiguedad expresada en anios">
+            </div>
+            <div class="form-group">
+                <label for="hsExtras">Horas extras</label>
+                <input type="number" class="form-control" id="hsExtras" placeholder="Ingrese la cantidad de horas extras que realizo este mes">
+            </div>
+            <button type="button" id="btn-Calcular" o class="btn btn-primary">Calcular</button>
+        </form>
+    </div>
+
+    <br>
+    <table class="table table-bordered table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col" class="text-center">Sueldo</th>
+                <th scope="col" class="text-center">Aporte Jubilatorio</th>
+                <th scope="col" class="text-center">PAMI</th>
+                <th scope="col" class="text-center">Obra Social</th>
+                <th scope="col" class="text-center">Cuota Sindical</th>
+                <th scope="col" class="text-center">Antiguedad</th>
+                <th scope="col" class="text-center">Cantidad de hijos</th>
+                <th scope="col" class="text-center">Horas extras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" id="sueldoTabla" class="text-center text-success"></th>
+                <td id="jubilacionTabla" class="text-center text-danger"></td>
+                <td id="pamiTabla" class="text-center text-danger"></td>
+                <td id="obraSocialTabla" class="text-center text-danger"></td>
+                <td id="cuotaSindicalTabla" class="text-center text-danger"></td>
+                <td id="antiguedadTabla" class="text-center"></td>
+                <td id="hijosTabla" class="text-center"></td>
+                <td id="hsExtrasTabla" class="text-center"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+
+<!-- Scripts -->
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>
